@@ -123,36 +123,48 @@
     <div class="row d-flex justify-content-evenly">
       <div class="col-sm-4 icons">
         <div class="row">
-        <div class="col icon text-center">
-          <img src="images/icons/html-5.png" class="img-fluid" width="50px"/>
-          <span>HTML</span>        
+        <div class="col icon">
+          <img src="images/icons/html-5.png" class="img-fluid" width="100px"/>
         </div>
         <div class="col icon">
-          <img src="images/icons/css.png" class="img-fluid" width="50px"/>
-          <span>CSS</span>        
+          <img src="images/icons/css.png" class="img-fluid" width="100px"/>
         </div>
         <div class="col icon">
-          <img src="images/icons/react.jpg" class="img-fluid" width="50px"/>
-          <span>React.js</span>        
+          <img src="images/icons/javascript.png" class="img-fluid" width="75px"/>
         </div>
       </div>
         <div class="row">
         <div class="col icon">
-          <img src="images/icons/nodejs.png" class="img-fluid" width="50px"/>
-          <span>Node.js</span>        
+          <img src="images/icons/nodejs.png" class="img-fluid" width="90px"/>
         </div>
         <div class="col icon">
-          <img src="images/icons/postgres.png" class="img-fluid" width="50px"/>
-          <span>PostgreSQL</span>        
+          <img src="images/icons/postgres.png" class="img-fluid"/>
         </div>
         <div class="col icon">
-          <img src="images/icons/git.png" class="img-fluid" width="50px"/>
-          <span>Git</span>        
+          <img src="images/icons/react.png" class="img-fluid" width="80px"/>
         </div>        
       </div>
       </div>
       <div class="col-sm-4 soft">
-      <h1>Soft Skills</h1>
+        <div class="skill-line">
+          <img src="images/icons/checked.png" class="img-fluid" width="20px">
+          <span class="skill-text">Problem Solving</span>
+          <hr>
+      </div>
+    <div class="skill-line">
+      <img src="images/icons/checked.png" class="img-fluid" width="20px">
+      <span class="skill-text">Communication</span>
+      <hr>
+  </div>
+  <div class="skill-line">
+    <img src="images/icons/checked.png" class="img-fluid" width="20px">
+    <span class="skill-text">Time Management</span>
+    <hr>
+</div>
+<div class="skill-line">
+  <img src="images/icons/checked.png" class="img-fluid" width="20px">
+  <span class="skill-text">Quick Study</span>
+</div>
     </div>
     </div>
   </div>
@@ -162,10 +174,31 @@
       <h1>Shall we?</h1>
     </div>
     <div class="contact-badge">
-      <h2><span class="badge bg-info contact-button">CONTACT ME</span></h2>
-      <a href="mailto:abra.sharon@gmail.com">abra.sharon@gmail.com</a>
+      <h2><span class="badge bg-info contact-button" data-bs-toggle="modal" data-bs-target="#contactModal">CONTACT ME</span></h2>
     </div>
   </div>
+  <div class="modal" tabindex="-1" id="contactModal">
+    <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title">Contact Me</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body d-flex justify-content-evenly align-items-center">
+          <div class="contact-icon">
+            <a href="mailto:abra.sharon@gmail.com" target="_blank"><img src="images/icons/email.png" class="img-fluid" width="100px"></img></a>
+          </div>
+          <div class="contact-icon">
+            <a href="https://www.linkedin.com/in/sharonabramovich/" target="_blank"><img src="images/icons/linkedin.png" class="img-fluid" width="90px"></img></a>
+          </div>
+          <div class="contact-icon">
+            <a href="https://github.com/SharonAbra" target="_blank"><img src="images/icons/github.png" class="img-fluid" width="80px"></img></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js" integrity="sha384-W8fXfP3gkOKtndU4JGtKDvXbO53Wy8SZCQHczT5FMiiqmQfUpWbYdTil/SxwZgAN" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.min.js" integrity="sha384-skAcpIdS7UcVUC05LJ9Dxay8AXcDYfBJqt1CJ85S/CFujBsIzCIv+l9liuYLaMQ/" crossorigin="anonymous"></script>
     <script src="script.js"></script>

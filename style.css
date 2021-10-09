@@ -5,7 +5,7 @@ body, html {
 }
 
 .hero-image {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('./images/hero-new.jpeg');
+  background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url('./images/hero-new.jpeg');
   height: 100%;
   background-position: center;
   background-repeat: no-repeat;
@@ -122,12 +122,6 @@ body, html {
   background-color: #fff;
 }
 
-@media screen and (min-width: 481px) {
-  .cv {
-    float: left;
-  }
-}
-
 .take-a-look {
   margin-top: 15px;
   text-shadow: none;
@@ -154,6 +148,10 @@ body, html {
   transition-duration: 0.7s;
 }
 
+.skills {
+  margin-bottom: 50px;
+}
+
 .icons, .soft {
   box-shadow: 0 0 40px rgb(0 0 0 / 40%);
   border-radius: 10px;
@@ -164,7 +162,12 @@ body, html {
 .icon {
   display: flex;
   flex-direction: column;
-  margin-bottom: 10px;
+}
+
+.skill-text {
+  font-size: 120%;
+  margin-left: 10px;
+  color: #767676;
 }
 
 .contact-image {
@@ -196,4 +199,9 @@ body, html {
 
 .contact-button:hover {
   color:rgb(0, 151, 238) ;
+  cursor:pointer;
+}
+
+.modal-body, .modal-header {
+  background-color: rgb(231, 251, 251);
 }
