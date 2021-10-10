@@ -1,7 +1,7 @@
 body, html {
-    height: 100%;
-    font-family: 'Catamaran', sans-serif;
-    background-color: rgb(231, 251, 251);
+  height: 100%;
+  background-color: rgb(231, 251, 251);
+  font-family: Helvetica, sans-serif !important;
 }
 
 .hero-image {
@@ -27,7 +27,7 @@ body, html {
 }
 
 .hero-text2 {
-  top: 60%;
+  top: 65%;
   left: 75%;
   width:450px;
 }
@@ -55,15 +55,15 @@ body, html {
 }
 
 .animation2 {
-  animation-delay: 1s;
+  animation-delay: 0.7s;
 }
 
 .animation3 {
-  animation-delay: 2s;
+  animation-delay: 1.2s;
 }
 
 .animation4 {
-  animation-delay: 4s;
+  animation-delay: 2.2s;
 }
 
 @keyframes fadeInAnimation {
@@ -95,7 +95,6 @@ body, html {
 }
 
 .badge {
-  /* box-shadow: 0 0 40px rgb(0 0 0 / 40%); */
   margin-top: 100px;
   margin-bottom: 50px;
 }
@@ -140,16 +139,46 @@ body, html {
 
 .boxes {
   box-shadow: 0 0 40px rgb(0 0 0 / 40%);
-  border-radius: 10px;
+  cursor: pointer;
 }
 
-.boxes:hover {
+/* .boxes:hover {
   transform: scale(1.05);
   transition-duration: 0.7s;
+} */
+
+.project-title {
+  text-align: center;
+  color:#767676;
+  margin-top: 50px;
+  margin-bottom: 10px;
+}
+
+.box-text {
+  font-size: 120%;
+}
+
+.demo {
+  text-decoration: none;
+  color: #fff;
+  background-color: #767676;
+  display: inline-block;
+  padding: 5px 10px;
+  border-radius: 5px;
+  border: 1px solid #767676;
+}
+
+.demo:hover {
+  color:#767676;
+  background-color: #fff;
+}
+
+.recent-project {
+  margin-bottom: 50px;;
 }
 
 .skills {
-  margin-bottom: 150px;
+  margin-bottom: 100px;
 }
 
 .icons, .soft {
@@ -157,6 +186,7 @@ body, html {
   border-radius: 10px;
   padding: 20px 20px;
   background-color: rgba(243, 243, 243, 0.945);
+  margin-bottom: 50px;
 }
 
 .icon {
