@@ -1,9 +1,9 @@
-const takeAlook = document.querySelector(".take-a-look");
+const takeALook = document.querySelector(".take-a-look");
 const about = document.querySelector(".about");
 const seeMore = document.querySelector(".see-more-button");
 const moreProjects = document.querySelector(".more-projects");
 
-takeAlook.addEventListener('click', () => {
+takeALook.addEventListener('click', () => {
     about.scrollIntoView({ 
         behavior: 'smooth' 
     });
