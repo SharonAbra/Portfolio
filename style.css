@@ -34,16 +34,16 @@ body, html {
 
 @media screen and (max-width: 480px) {
   .hero-text1 {
-    top: 30%;
-    left: 30%;
+    top: 25%;
+    left: 50%;
   }
 }
 
 @media screen and (max-width: 480px) {
   .hero-text2 {
     top: 90%;
-    left: 60%;
-    width: 60%;
+    left: 50%;
+    /* width: 60%; */
   }
 }
 
